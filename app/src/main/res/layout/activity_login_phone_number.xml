@@ -112,6 +112,7 @@
             android:layout_height="wrap_content"
             app:ccp_showFlag="false"
             app:ccp_showNameCode="false"
+            android:id="@+id/login_countrycode"
             />
         
         
@@ -123,8 +124,9 @@
             android:hint="Phone Number"
             android:inputType="phone"
             android:layout_margin="10dp"
-android:background="@drawable/edit_text_rounded_corner"
+            android:background="@drawable/edit_text_rounded_corner"
             android:elevation="5dp"
+            android:id="@+id/login_mobile_number"
             />
 
 
@@ -145,6 +147,7 @@ android:background="@drawable/edit_text_rounded_corner"
             android:layout_height="wrap_content"
 android:background="@drawable/btn_rounded_corner"
             android:text="Send OTP"
+            android:id="@+id/send_otp_btn"
             />
         
         <ProgressBar
@@ -152,6 +155,7 @@ android:background="@drawable/btn_rounded_corner"
             android:layout_height="wrap_content"
             android:indeterminateTint="@color/my_primary"
             android:layout_gravity="center"
+            android:id="@+id/login_progress_bar"
             />
 
     </LinearLayout>
